@@ -562,14 +562,6 @@ $dualboottime.height             = 30
 $dualboottime.location           = New-Object System.Drawing.Point(3,754)
 $dualboottime.Font               = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
 
-$Label11                         = New-Object system.Windows.Forms.Label
-$Label11.text                    = "Videos to Fix Windows"
-$Label11.AutoSize                = $true
-$Label11.width                   = 25
-$Label11.height                  = 10
-$Label11.location                = New-Object System.Drawing.Point(687,659)
-$Label11.Font                    = New-Object System.Drawing.Font('Microsoft Sans Serif',12)
-
 $ncpa                            = New-Object system.Windows.Forms.Button
 $ncpa.text                       = "Network Connections"
 $ncpa.width                      = 211
@@ -706,15 +698,15 @@ $vscodium.Add_Click({
 })
 
 $urlremovevirus.Add_Click({
-    Start-Process "https://youtu.be/CHtZ9-9ch2w"
+    Start-Process "https://youtu.be/TEST"
 })
 
 $urlfixwinstartup.Add_Click({
-    Start-Process "https://youtu.be/sOihh4ZNOf4"
+    Start-Process "https://youtu.be/TEST"
 })
 
 $urlcreateiso.Add_Click({
-    Start-Process "https://youtu.be/R6XPff38iSc"
+    Start-Process "https://youtu.be/TEST"
 })
 
 $winterminal.Add_Click({
