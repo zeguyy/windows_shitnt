@@ -273,7 +273,7 @@ $PictureBox1                     = New-Object system.Windows.Forms.PictureBox
 $PictureBox1.width               = 343
 $PictureBox1.height              = 136
 $PictureBox1.location            = New-Object System.Drawing.Point(580,850)
-$PictureBox1.imageLocation       = "https://github.com/zeguyy/windows_shitnt/blob/c0e38c8dbd4246b02b7d6a6abd43bb44ba1df472/titus-toolbox.png"
+$PictureBox1.imageLocation       = "https://github.com/zeguyy/windows_shitnt/blob/c0e38c8dbd4246b02b7d6a6abd43bb44ba1df472/titus-toolbox.png?raw=true"
 $PictureBox1.SizeMode            = [System.Windows.Forms.PictureBoxSizeMode]::zoom
 $lightmode                       = New-Object system.Windows.Forms.Button
 $lightmode.text                  = "Light Mode"
